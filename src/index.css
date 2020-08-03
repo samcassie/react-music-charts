@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#heading {
+    text-align: center;
+}
+
+.song {
+    display: flex;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 2vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titleAndArtist {
+    padding-left: 2vh;
+}
+
+.price {
+    padding: 2vh;
+    border: 1px solid black;
+    border-radius: 2vh;
+    background-color: green;
+    color: white;
+
+}
